@@ -68,7 +68,8 @@ p{font-size: 1em; color:black;}
 .onde-estamos h2{margin-bottom: 5px;}
 .onde-estamos frame {width: 100%; height: 250px; margin: 20px 0;}
 .onde-estamos li {color: #333; margin-bottom: 10px;}
-.onde-estamos i {margin-right: 5px;}
+.onde-estamos i {margin-right: 5px; font-size: 1em;}
+
 
 /*NewsLetter*/
 .newsletter{width: 100%; float: right ; background-color: #111; padding: 50px 8%;}
