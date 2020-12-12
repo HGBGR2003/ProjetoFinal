@@ -13,3 +13,5 @@
 }
 
 .logo a {width: 120px; height: 200px; float: left; font-size: 0; }
+
+.logo img {float: left;}
