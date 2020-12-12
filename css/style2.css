@@ -1,4 +1,15 @@
-h1{
-    color: aqua;
-    background-color: blueviolet;
+* {margin: 0; padding:0; font-size: 100%; font-family: 'Open Sans', sans-serif; font-weight: normal;
+    box-sizing:border-box; border: none; outline: none;}
+    img{max-width: 100%;}
+    ul{list-style: none;}
+    a {text-decoration: none;}
+    h2{font-size: 1.5em ; color:#333} /*#819297*/
+    p{font-size: 1em; color:black;}
+
+    
+.cabecalho2{
+    width: 100%; float: left; padding: 50px 8%; 
+    background-color: rgb(31, 146, 79);
 }
+
+.logo a {width: 120px; height: 200px; float: left; font-size: 0; }
