@@ -30,21 +30,15 @@ p{font-size: 1em; color:black;}
 }
 
 
-
-
-
 /*Menu do nosso site*/
-.menu{ width: 100%; float: left; background-color: black; padding: 18px 8%;   }
-.menu li{ float: left;}
-.menu li a {color: #7FFF00; margin-right: 25px;}
-.menu li a:hover{color: #C71585}
+
 
 
 /*Social Icons*/
 .social-icons{
     float: right;
 }
-.social-icons a  {color:#fff; float: left; margin-left: 12px;}
+.social-icons a  {color:#00ff7f; float: left; margin-left: 12px;}
 .btn-facebook:hover{
     color: blue;
 }
