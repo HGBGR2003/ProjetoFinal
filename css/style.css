@@ -42,14 +42,12 @@ p{font-size: 1em; color:black;}
 }
 
 /*Principal*/ /*Feito pelo Couther*/
-.principal{ width: 100%; float: left; padding: 20px 8%;}
-.sobre { width: 70%; float: left; padding: 0 20px 20px 0;}
 .sobre h2 {margin-bottom: 15px;}
 .sobre img {width: 50%; float: left; border-radius: 5px; margin: 0 15px 15px 0;}
-.sobre p {text-align: justify;}
+.sobre p {text-align: left;}
 
 /*Side Bar*/ /*Feito pelo Henrique*/
-.onde-estamos {width: 30%; float: right; padding: 10px 20px; background-color: #00ff7f; border-radius: 5px;}
+.onde-estamos {background-color: #00ff7f; border-radius: 5px;}
 .onde-estamos h2{margin-bottom: 5px;}
 .onde-estamos frame {width: 100%; height: 250px; margin: 20px 0;}
 .onde-estamos li {color: #333; margin-bottom: 10px;}
