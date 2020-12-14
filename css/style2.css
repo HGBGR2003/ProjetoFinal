@@ -17,7 +17,6 @@
 .logo img {float: left;}
 
 .logo2 img {
-   
         position: absolute;
         right: 40px;
         top: 30px;
@@ -31,19 +30,11 @@
 .sobre p {text-align: justify;}
 
 
-
- /*Menu*/
-.menu{ width: 100%; float: left; background-color: black; padding: 18px 8%; }
-.menu li{ float: left;}
-.menu li a {color: #7FFF00; margin-right: 25px;}
-.menu li a:hover{color: #C71585}
-
-
 /*Social Icons*/
 .social-icons2{
     float: right;
 }
-.social-icons2 a  {color:#fff; float: left; margin-left: 12px;}
+.social-icons2 a  {float: left; margin-left: 12px;}
 .btn-facebook:hover{
     color: blue;
 }
