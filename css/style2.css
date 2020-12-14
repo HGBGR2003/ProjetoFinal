@@ -6,7 +6,7 @@
     h2{font-size: 1.5em ; color:#333} /*#819297*/
     p{font-size: 1em; color:black;}
 
-    
+ /*Cabeçalho*/   
 .cabecalho2{
     width: 100%; float: left; padding: 50px 8%; 
     background-color: rgb(31, 146, 79);
@@ -15,3 +15,47 @@
 .logo a {width: 120px; height: 200px; float: left; font-size: 0; }
 
 .logo img {float: left;}
+
+.logo2 img {
+   
+        position: absolute;
+        right: 40px;
+        top: 30px;
+}
+
+/*Principal*/
+.principal2{ width: 100%; float: left; padding: 20px 9%;}
+.sobre { width: 70%; float: left; padding: 0 20px 20px 0;}
+.sobre h2 {margin-bottom: 15px;}
+.sobre img {width: 50%; float: left; border-radius: 5px; margin: 0 15px 15px 0;}
+.sobre p {text-align: justify;}
+
+
+
+ /*Menu*/
+.menu{ width: 100%; float: left; background-color: black; padding: 18px 8%;   }
+.menu li{ float: left;}
+.menu li a {color: #7FFF00; margin-right: 25px;}
+.menu li a:hover{color: #C71585}
+
+
+/*Social Icons*/
+.social-icons2{
+    float: right;
+}
+.social-icons2 a  {color:#fff; float: left; margin-left: 12px;}
+.btn-facebook:hover{
+    color: blue;
+}
+.btn-youtube:hover{
+    color: red;
+}
+
+
+
+
+
+    
+
+
+
