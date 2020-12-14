@@ -51,6 +51,18 @@
     color: red;
 }
 
+/*Rodapé*/
+.rodape2{
+    width: 100%;
+    float: left;
+    background-color:rgb(31, 146, 79);
+    padding: 20px 8%;
+    text-align: center;
+
+}
+
+.rodape2 p {color: lightgreen;}
+
 
 
 

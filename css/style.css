@@ -86,3 +86,15 @@ p{font-size: 1em; color:black;}
 }
 
 .rodape p {color: lightgreen;}
+
+
+/*Parte responsiva do site*/
+@media(width : 300px){
+    .social-icons a {
+        margin-left: 10px;
+    }
+
+    .newsletter{
+        padding: 70px 10%;
+    }
+}
