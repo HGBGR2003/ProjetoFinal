@@ -16,11 +16,7 @@
 
 .logo img {float: left;}
 
-.logo2 img {
-        position: absolute;
-        right: 40px;
-        top: 30px;
-}
+
 
 /*Principal*/
 .principal2{ width: 100%; float: left; padding: 20px 9%;}
