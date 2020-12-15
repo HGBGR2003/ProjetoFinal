@@ -30,7 +30,7 @@
 .social-icons2{
     float: right;
 }
-.social-icons2 a  {float: left; margin-left: 12px;}
+.social-icons2 a  { color: #00ff7f ;float: left; margin-left: 12px;}
 .btn-facebook:hover{
     color: blue;
 }
