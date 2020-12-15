@@ -55,11 +55,11 @@ p{font-size: 1em; color:black;}
 
 
 /*NewsLetter*/ 
-.newsletter{width: 100%; float: right ; background-color: #111; padding: 50px 8%;}
+.newsletter{width: 100%; background-color: #111; padding: 50px 8%;}
 .newsletter h3{font-size: 1.8em; color: #7FFF00;}
 .newsletter p{font-size: 1.2em; color:#fff}
-.newsletter form input { margin-right: 1%; padding: 15px 10px; border: 1px solid #fff; border-radius: 5px; color: aqua; background-color: initial; float: left;}
-.newsletter button {background-color: khaki; padding: 15px 10px; border-radius: 5px; float: right; cursor: pointer; color: lightseagreen;}
+.newsletter form input { margin-right: 1%; padding: 15px 10px; border: 1px solid #fff; border-radius: 5px; color: aqua; background-color: initial;}
+.newsletter button {background-color: khaki; padding: 15px 10px; border-radius: 5px; cursor: pointer; color: lightseagreen;}
 
 /*Rodapé*/ 
 .rodape{
