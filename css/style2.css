@@ -12,13 +12,25 @@
     background-color: rgb(31, 146, 79);
 }
 
-.logo a {width: 120px; height: 200px; float: left; font-size: 0; }
+.logo a {
+    width: 120px; 
+    height: 200px; 
+    float: left; 
+    font-size: 0;
+}
 
-.logo img {float: left;}
+.logo img{
+   text-align: center;
+} 
+
+
 
 
 
 /*Principal*/
+.container {
+    min-height: calc(100vh - 436px);
+}
 .principal2{ width: 100%; float: left; padding: 20px 9%;}
 .sobre { width: 70%; float: left; padding: 0 20px 20px 0;}
 .sobre h2 {margin-bottom: 15px;}
@@ -48,13 +60,15 @@
 
 }
 
-.rodape2 p {color: lightgreen;}
-
-
-
-
-
+.rodape2 p {
+    color: lightgreen;
     
+}
 
+.secundaria{
+    text-align: center;
+}
 
-
+.terciaria{
+    text-align: center;
+}
