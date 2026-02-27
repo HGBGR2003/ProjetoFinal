@@ -80,7 +80,6 @@ p  { font-size: 1em; color: black; }
 .principal2 {
   width: 100%;
   padding: 30px 5%;
-  text-align: center;
 }
 
 .principal2 h2 {
@@ -94,12 +93,17 @@ p  { font-size: 1em; color: black; }
   line-height: 1.8;
   font-size: 0.95rem;
   max-width: 800px;
-  margin: 0 auto;
 }
 
 /* ===== CLASSES AUXILIARES ===== */
-.secundaria { text-align: center; }
-.terciaria  { text-align: center; }
+.secundaria {
+  text-align: center;
+}
+
+.terciaria {
+  text-align: center;
+  margin: 0 auto;
+}
 
 /* ===== RODAPÉ ===== */
 .rodape2 {
