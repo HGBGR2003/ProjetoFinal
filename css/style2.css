@@ -1,71 +1,178 @@
-*   {margin: 0; padding:0; font-size: 100%; font-family: 'Open Sans', sans-serif; font-weight: normal;
-    box-sizing:border-box; border: none; outline: none;}
-    img{max-width: 100%;}
-    ul{list-style: none;}
-    a {text-decoration: none;}
-    h2{font-size: 1.5em ; color:#333} /*#819297*/
-    p{font-size: 1em; color:black;}
+/* ===== RESET & BASE ===== */
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+}
 
- /*Cabeçalho*/   
-.cabecalho2{
-    width: 100%; float: left; padding: 50px 8%; 
-    background-color: rgb(31, 146, 79);
+img { max-width: 100%; height: auto; display: block; }
+ul  { list-style: none; }
+a   { text-decoration: none; }
+
+h2 { font-size: 1.5em; color: #333; }
+p  { font-size: 1em; color: black; }
+
+/* ===== CABEÇALHO ===== */
+.cabecalho2 {
+  width: 100%;
+  padding: 20px 8%;
+  background-color: rgb(31, 146, 79) !important;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  min-height: 80px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin: 0;
 }
 
 .logo a {
-    width: 120px; 
-    height: 200px; 
-    float: left; 
-    font-size: 0;
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: white !important;
+  text-decoration: none;
 }
 
-.logo img{
-   text-align: center;
-} 
+.logo img {
+  width: 60px;
+  height: auto;
+  /* Esconde o ícone quebrado sem sumir o espaço do cabeçalho */
+  object-fit: contain;
+}
 
+/* ===== NAVBAR ===== */
+.social-icons2 {
+  margin-left: auto;
+  display: flex;
+  gap: 10px;
+  padding: 5px 0;
+}
 
-/*Principal*/
+.social-icons2 a {
+  color: #00ff7f;
+  font-size: 1.2rem;
+}
+
+.btn-facebook:hover { color: #4267B2; }
+.btn-youtube:hover  { color: red; }
+
+/* ===== CONTAINER PRINCIPAL ===== */
 .container {
-    min-height: calc(100vh - 436px);
-}
-.principal2{ width: 100%; float: left; padding: 20px 9%;}
-.sobre { width: 70%; float: left; padding: 0 20px 20px 0;}
-.sobre h2 {margin-bottom: 15px;}
-.sobre img {width: 50%; float: left; border-radius: 5px; margin: 0 15px 15px 0;}
-.sobre p {text-align: justify;}
-
-
-/*Social Icons*/
-.social-icons2{
-    float: right;
-}
-.social-icons2 a  { color: #00ff7f ;float: left; margin-left: 12px;}
-.btn-facebook:hover{
-    color: blue;
-}
-.btn-youtube:hover{
-    color: red;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  min-height: calc(100vh - 200px);
 }
 
-/*Rodapé*/
-.rodape2{
-    width: 100%;
-    float: left;
-    background-color:rgb(31, 146, 79);
-    padding: 20px 8%;
-    text-align: center;
+/* ===== CONTEÚDO PRINCIPAL ===== */
+.principal2 {
+  width: 100%;
+  padding: 30px 5%;
+  text-align: center;
+}
 
+.principal2 h2 {
+  margin-bottom: 20px;
+  color: rgb(31, 146, 79);
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.principal2 p {
+  line-height: 1.8;
+  font-size: 0.95rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* ===== CLASSES AUXILIARES ===== */
+.secundaria { text-align: center; }
+.terciaria  { text-align: center; }
+
+/* ===== RODAPÉ ===== */
+.rodape2 {
+  width: 100%;
+  background-color: rgb(31, 146, 79);
+  padding: 20px 8%;
+  text-align: center;
+  margin-top: 30px;
 }
 
 .rodape2 p {
-    color: lightgreen;
-    
+  color: lightgreen;
+  font-size: 0.85rem;
 }
 
-.secundaria{
-    text-align: center;
+/* ===== MEDIA QUERIES ===== */
+
+/* Tablets */
+@media (max-width: 768px) {
+  .cabecalho2 {
+    padding: 15px 5%;
+  }
+
+  .logo a {
+    font-size: 1.1rem;
+  }
+
+  .logo img {
+    width: 45px;
+  }
+
+  .social-icons2 {
+    margin-left: 0;
+  }
+
+  .principal2 {
+    padding: 20px 3%;
+  }
+
+  .principal2 h2 {
+    font-size: 1.3rem;
+  }
 }
 
-.terciaria{
-    text-align: center;
+/* Smartphones */
+@media (max-width: 480px) {
+  .cabecalho2 {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 12px 4%;
+  }
+
+  .logo {
+    gap: 8px;
+  }
+
+  .logo a {
+    font-size: 1rem;
+  }
+
+  .logo img {
+    width: 38px;
+  }
+
+  .principal2 h2 {
+    font-size: 1.2rem;
+  }
+
+  .principal2 p {
+    font-size: 0.9rem;
+  }
+
+  .rodape2 {
+    padding: 15px 4%;
+  }
 }
