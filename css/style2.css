@@ -21,7 +21,7 @@ p  { font-size: 1em; color: black; }
 .cabecalho2 {
   width: 100%;
   padding: 20px 8%;
-  background-color: rgb(31, 146, 79) !important;
+  background-color: #1f924f !important;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
